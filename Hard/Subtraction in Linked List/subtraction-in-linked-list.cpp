@@ -108,7 +108,7 @@ public:
             }
             
             if(carry) {
-                val1--;
+                val2++;
                 carry = false;
             }
             int curr = val1 - val2;
